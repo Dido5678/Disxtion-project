@@ -1,0 +1,96 @@
+.sectionWork{
+    max-width: 100%;
+    
+  }
+.container{
+        max-width: 1300px;
+        height: 100vh;
+        margin: 0 auto;
+        color: white;
+      }
+.work{
+
+}
+
+.work_title{
+    font-size: 120px;
+    width: 900px;
+}
+.work_boxOne{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.work_sub{
+    font-size: 24px;
+    color: #64FFDA;
+}
+.work_subtitle{
+    font-size: 57px;
+}
+.work_text{
+    color: #CCD6F6;
+    font-size: 18px;
+}
+.work_ul{
+    display: flex;
+    border: 1px solid white;
+    gap: 30px;
+    padding: 15px 0px 15px 60px;
+}
+.work_icons {
+    display: flex;
+   
+}
+.work_github{
+    color: #CCD6F6;
+}
+
+.work_boxTwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0px;
+}
+.work_boxThree{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+// SOCIAL
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+  }
+  .social_li{
+    color: #ccd6f6;
+  }
+  .socialEm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    text-transform: lowercase !important;
+    transition: 0.3s;
+    transform: rotate(90deg); 
+    color: #ccd6f6;
+    margin-bottom: 50px;
+  }
+  .socialEmail{
+    color: #ccd6f6;
+     text-decoration: none;
+  }
+  .social_border1{
+    border-left: 1px solid white;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  .social_border2{
+    border: 1px solid white;
+    // transform: rotate(90deg); 
+    width: 100px;
+  }

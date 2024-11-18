@@ -1,0 +1,29 @@
+
+
+.header{
+    padding: 30px;
+    max-width: 100%;
+    height: 60px;
+}
+.header_list{
+    display: flex;
+    justify-content: space-between;
+    color: #CCD6F6;
+    font-size: 18px;
+}
+.header_items{
+    display: flex;
+    justify-content: space-between; 
+}
+.header_box{
+    padding: 0px 30px;
+}
+.header_resume{
+    color: #4AFFDA;
+    border: 1px solid #4AFFDA;
+    padding: 12px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}

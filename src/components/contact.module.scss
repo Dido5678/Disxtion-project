@@ -1,0 +1,65 @@
+.section_contact{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.contact_title{
+    font-size: 120px;
+}
+.contac_subtitle{
+    color: #CCD6F6;
+    font-size: 18px;
+}
+.contact_item2{
+    background: #112240;
+    padding: 50px 50px 50px 50px;
+    color: white;
+}
+.contact_form{
+   width: 100%;
+  
+}
+
+.contact_inp{
+    padding: 15px 100px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4E627E;
+}
+
+.contact_textarea{
+    padding: 15px 160px 100px 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4E627E;
+    margin-bottom: 30px;
+}
+
+.contact_button{
+    border-radius: 15px;
+    border: 1px solid #64FFDA;
+    padding: 12px 30px;
+    color: #64FFDA;
+    background: #0A192E;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact_button:hover{
+    color: black;
+    background: #64FFDA;
+}
