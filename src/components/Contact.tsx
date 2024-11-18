@@ -1,7 +1,7 @@
 import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 import styles from './contact.module.scss';
 import Header from "../pages/Layout/Header.jsx";
-
+import Footer from "../pages/Layout/Footer.jsx";
 
 
 interface ContactFormData {
@@ -117,6 +117,7 @@ const Contact: React.FC = () => {
                   </form>
               </div>
             </div>
+            <Footer />
         </div>
       </section>
     </>

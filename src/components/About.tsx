@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './about.module.scss';
-import { Link } from "react-router-dom";
 import Header from "../pages/Layout/Header.jsx";
 import icon from "../assets/images/iconsplay64.png";
 import myfoto from "../assets/images/profile.png";
+import Footer from "../pages/Layout/Footer.jsx";
 
 const About: React.FC = () => {
   return (
@@ -47,24 +47,7 @@ const About: React.FC = () => {
         <img src={myfoto} alt='myfoto' className={styles.myFoto}/>
             </div>
           </div>
-        <div className={styles.social}>
-          <div>
-            <ul className={styles.social_ul}>
-              <li className={styles.social_li}>DR</li>
-              <li className={styles.social_li}>IN</li>
-              <li className={styles.social_li}>TW</li>
-              <li className={styles.social_li}>FB</li>
-            </ul>
-            <div className={styles.social_border1}></div>
-          </div>
-          <div className={styles.socialEm}>
-            <div>
-            <Link to="aida.mkrtchyan0606@gmail.com"className={styles.socialEmail} target="_blank" rel="noopener noreferrer">aida.mkrtchyan0606@gmail.com</Link>
-            </div>
-          
-          <div className={styles.social_border2}></div>
-          </div>
-        </div>
+        <Footer />
         </div>
       </section>
     </>

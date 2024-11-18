@@ -1,15 +1,16 @@
 .sectionWork{
     max-width: 100%;
-    
   }
-.container{
-        max-width: 1300px;
-        height: 100vh;
-        margin: 0 auto;
-        color: white;
-      }
-.work{
 
+.work{
+  max-width: 1300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  padding: 80px 0px;
+  margin: 0 auto;
 }
 
 .work_title{

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './work.module.scss';
-import { Link } from "react-router-dom";
 import Header from "../pages/Layout/Header.jsx";
 import project1 from "../assets/images/featured-projects-1.png";
 import github from "../assets/icons/github-wh.png";
@@ -8,6 +7,7 @@ import vector from "../assets/icons/external-wh.png";
 import project2 from "../assets/images/featured-projects-2.png";
 import project3 from "../assets/images/featured-projects-3.png";
 import OtherProject from "../components/OtherProject";
+import Footer from "../pages/Layout/Footer.jsx";
 
 
 const Work: React.FC = () => {
@@ -84,23 +84,7 @@ const Work: React.FC = () => {
             <OtherProject/>
 
           </div>
-        <div className={styles.social}>
-          <div>
-            <ul className={styles.social_ul}>
-              <li className={styles.social_li}>DR</li>
-              <li className={styles.social_li}>IN</li>
-              <li className={styles.social_li}>TW</li>
-              <li className={styles.social_li}>FB</li>
-            </ul>
-            <div className={styles.social_border1}></div>
-          </div>
-          <div className={styles.socialEm}>
-            <div>
-            <Link to="aida.mkrtchyan0606@gmail.com"className={styles.socialEmail} target="_blank" rel="noopener noreferrer">aida.mkrtchyan0606@gmail.com</Link>
-            </div>
-          <div className={styles.social_border2}></div>
-          </div>
-        </div>
+       <Footer />
 
         </div>
       </section>

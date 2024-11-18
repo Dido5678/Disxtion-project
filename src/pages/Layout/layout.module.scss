@@ -30,3 +30,39 @@
     transition: 0.5s;
     text-decoration: none;
 }
+
+// footer/social
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+  }
+  .social_li{
+    color: #ccd6f6;
+  }
+  .socialEm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    text-transform: lowercase !important;
+    transition: 0.3s;
+    transform: rotate(90deg); 
+    color: #ccd6f6;
+    margin-bottom: 50px;
+  }
+  .socialEmail{
+    color: #ccd6f6;
+     text-decoration: none;
+  }
+  .social_border1{
+    border-left: 1px solid white;
+    height: 100px;
+    margin-left: 50px;
+  }
+  
+  .social_border2{
+    border: 1px solid white;
+    width: 100px;
+  }
